@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e1442f",
+    "navigationBarTitleText": "选股黄历",
+    "navigationBarTextStyle":"white"
+  }
+}

@@ -1,0 +1,20 @@
+<!--logs.wxml-->
+<view class="container">
+  <image class="back_img" src="../../resources/back_image.jpg"></image>
+  <scroll-view scroll-y="true" style="height: 1190rpx">
+    <view class="header"> 
+      <text class="title">{{title}}</text>
+    </view>
+    <view class="time_back">
+    <text class="time">{{time}}</text>
+    </view>
+    <view class="btn">每日早十点 五只精选股票</view>
+    <view class="content">
+      <text>{{content}}</text>
+    </view>
+    <view class="footer">
+    <image class="footer_img" src= "../../resources/news_bottom.png" ></image>
+    <text class="footer_text">交易黄历预测完全遵循万年历，仅供参考。\ncopyright © 理想论坛 55188.com</text>
+    </view>
+  </scroll-view>
+</view>

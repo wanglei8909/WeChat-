@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+    <image class="back_img" src="../../resources/back_image.jpg"></image>
+    <scroll-view scroll-y="false">
+      <image class="header_img" src="../../resources/header.png"></image>
+      <view class="header">
+        <text class="leftdate">{{year_month}}</text>
+        <text class="rightdate" >{{week}}</text>
+        <text class="day">{{day}}</text>
+        <text class="lunar">{{lunar_calendar}}</text>
+      </view>
+      <view class="body">
+        <image wx:if="{{condition == 1 || condition == 2}}" class="bodysection_a" src="../../resources/section_a.png"></image>
+        <image wx:if="{{condition == -1 || condition == 0}}" class="bodysection_a" src="../../resources/wanzheng.png"></image>
+        <image class="bodysection_b" src="../../resources/section_b.png"></image>
+        <view wx:if="{{condition == -1 || condition == 0}}" class="loading loading1"> </view>
+        <view wx:if="{{condition == -1 || condition == 0}}" class="loading loading2"> </view>
+        <view wx:if="{{condition == -1 || condition == 0}}" class="cont1">
+          <text wx:if="{{condition == -1}}" class="xiu_shi">今日休市，木有锦囊…</text>
+          <text wx:if="{{condition == 0}}" class="xiu_shi">今日锦囊正在冶炼中…</text>
+          <text class="time_tips">(道长会在每日上午10点左右发布锦囊)</text>
+        </view>
+        <view wx:if="{{condition == 1 || condition == 2}}" bindtap="bindViewTap" class="cont1">
+          <image class="lookbtn_a" src= "../../resources/lookbtn_a.png" ></image>
+          <image class="jinang" src= "../../resources/jinnang.gif" ></image>
+          <image class="lookbtn_b" src= "../../resources/lookbtn_b.png" ></image>
+          <text class="tips_text"> {{summary}} </text>
+        </view>
+        <view class="cont2">
+          <image class="huangli_yi" src= "../../resources/huangli_yi.png" ></image>
+          <image class="huangli_ji" src= "../../resources/huangli_ji.png" ></image>
+          <text class="yi_text">{{yi}}</text>
+          <text class="ji_text">{{ji}}</text>
+        </view>
+      </view>
+      <view class="footer">
+        <view class="footercont">
+          <text class="foorter_1">声明：交易老黄历预测完全遵循万年历，仅供参考。</text>
+          <text class="foorter_2">copyright © 理想论坛 55188.com </text>
+        </view>
+      </view>
+      <image wx:if="{{condition == 2}}" animation="{{animationData}}" class="icon_img" src= "../../resources/jiaoyi_yi.png" ></image>
+      <image wx:if="{{condition == 1}}" animation="{{animationData}}" class="icon_img" src= "../../resources/jiaoyi_ji.png" ></image>
+      
+    </scroll-view>
+    
+</view>
+
+

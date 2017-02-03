@@ -1,0 +1,284 @@
+/**index.wxss**/
+
+.back_view {
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 520rpx;
+  width: 750rpx;
+  color: #c17b33;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 60rpx;
+}
+
+.body {
+  position: relative;
+  height: 550rpx;
+  width: 750rpx;
+}
+
+.footer {
+  position: relative;
+  width: 750rpx;
+  /*height: 185rpx;*/
+  text-align: center;
+}
+
+.header_img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 750rpx;
+  height: 56rpx;
+}
+
+.leftdate {
+  position: absolute;
+  top: 65rpx;
+  left: 35rpx;
+  font-size: 35rpx;
+  font-family: STSong;
+  font-weight: bold;
+}
+
+.rightdate {
+  position: absolute;
+  top: 65rpx;
+  right: 35rpx;
+  font-size: 35rpx;
+  font-family: STSong;
+  font-weight: bold;
+ }
+
+ .day {
+   position: absolute;
+   top: 100rpx;
+   left: 50%;
+   transform: translateX(-50%);
+   line-height: 1;
+   font-size: 330rpx;
+   font-weight: bold;
+   color: #e1442f;
+   font-family: San Francisco,Helvetica,Arial,sans-serif;
+ }
+
+ .lunar {
+   position: absolute;
+   top: 400rpx;
+   left: 50%;
+   transform: translateX(-50%);
+   color: #e1442f;
+   font-size: 50rpx;
+   font-family: STSong,SimSun,NSimSun,SimSun,NSimSun,FangSong,STZhongsong,STFangsong;
+   font-weight: bold;
+ }
+.bodysection_a {
+  position: absolute;
+  width: 686rpx;
+  height: 230rpx;
+  top: 0;
+  left: 32rpx;
+}
+
+.bodysection_b {
+  position: absolute;
+  width: 686rpx;
+  height: 300rpx;
+  top: 250rpx;
+  left: 32rpx;
+}
+
+.cont1 {
+  position: absolute;
+  left: 32rpx;
+  width: 686rpx;
+  height: 230rpx;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+.cont2 {
+  position: absolute;
+  top: 250rpx;
+  height: 230rpx;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+.icon_img {
+  position: absolute;
+  left: -1029rpx;
+  top: -436rpx;
+  /*transform: translate(0,-50%);*/
+  width: 2300rpx;
+  height: 1880rpx;
+}
+
+.tips_text{
+  position: absolute;
+  top: 140rpx;
+  left: 0;
+  width: 686rpx;
+  height: 40rpx;
+  font-weight: bold;
+  font-size: 40rpx;
+  text-align: center;
+  color: #e1442f;
+  font-family: STSong;
+  letter-spacing:5rpx;
+}
+
+.xiu_shi{
+  position: absolute;
+  top: 55rpx;
+  width: 460rpx;
+  left: 343rpx;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #e1442f;
+  font-size: 46rpx;
+}
+
+.time_tips{
+  position: absolute;
+  top: 130rpx;
+  width: 660rpx;
+  left: 343rpx;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #C17B33;
+  font-size: 28rpx;
+  
+}
+
+.tips_img {
+  position: absolute;
+  top: -30rpx;
+  height: 160rpx;
+  width: 460rpx;
+  left: 148rpx;
+}
+
+.lookbtn_a {
+  position: absolute;
+  top: 46rpx;
+  height: 60rpx;
+  width: 232rpx;
+  left: 116rpx;
+}
+.jinang {
+  position: absolute;
+  top: -25rpx;
+  height: 140rpx;
+  width: 122rpx;
+  right: 213rpx;
+}
+
+.lookbtn_b {
+  position: absolute;
+  top: 46rpx;
+  height: 60rpx;
+  width: 94rpx;
+  right: 116rpx;
+}
+
+.huangli_yi {
+  position: absolute;
+  left: 70rpx;
+  top: 45rpx;
+  width: 60rpx;
+  height: 62rpx;
+}
+
+.huangli_ji {
+  position: absolute;
+  left: 70rpx;
+  top: 166rpx;
+  width: 60rpx;
+  height: 62rpx;
+}
+
+.yi_text {
+  position: absolute;
+  top: 55rpx;
+  height: 82rpx;
+  width: 510rpx;
+  left: 160rpx;
+  line-height: 1.28;
+  color: #ed9d4a;
+  font-size: 32rpx;
+  text-align: left;
+  letter-spacing:5rpx;
+}
+
+.ji_text {
+  position: absolute;
+  top: 176rpx;
+  height: 82rpx;
+  width: 510rpx;
+  left: 160rpx;
+  line-height: 1.28;
+  color: #c17b33;
+  font-size: 32rpx;
+  text-align: left;
+  letter-spacing:5rpx;
+}
+
+.footercont {
+  position: relative;
+  height: 100rpx;
+  padding: 0;
+  /*margin: 0 auto;*/
+  text-align: center;
+  background-color: transparent;
+}
+
+.foorter_1 {
+  position: absolute;
+  top: 36rpx;
+  font-size: 22rpx;
+  color: #c17b33;
+  left: 0;
+  right: 0;
+}
+
+.foorter_2 {
+  position: absolute;
+  top: 71rpx;
+  font-size: 24rpx;
+  color: #c17b33;
+  left: 0;
+  right: 0;
+}
+
+.loading {
+  position:absolute;
+  top: 60rpx;
+  box-sizing:border-box;
+  width: 40rpx;
+  height: 40rpx;
+  border:2rpx solid;
+  border-color:#C17B33 #C17B33 transparent;
+  border-radius:50%;
+  animation:loading 1s linear both infinite;
+}
+
+.loading1{left:80rpx;}
+.loading2{right:80rpx;}
+
+@keyframes loading{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
